@@ -1,0 +1,34 @@
+CREATE DATABASE IF NOT EXISTS bookstore;
+USE bookstore;
+
+CREATE TABLE IF NOT EXISTS books (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  author VARCHAR(255) NOT NULL,
+  category VARCHAR(100) NOT NULL,
+  price DECIMAL(10,2) NOT NULL,
+  stock INT NOT NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS users (
+  userID BIGINT PRIMARY KEY AUTO_INCREMENT,
+  userRole VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS customers (
+  customerID BIGINT PRIMARY KEY AUTO_INCREMENT,
+  firstName VARCHAR(100) NOT NULL,
+  lastName VARCHAR(100) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  age INT,
+  nationality VARCHAR(100),
+  language VARCHAR(100),
+  religion VARCHAR(100),
+  profession VARCHAR(150),
+  userID BIGINT NOT NULL,
+  bankcardID BIGINT,
+  CONSTRAINT fk_customers_user FOREIGN KEY (userID) REFERENCES users(userID)
+);

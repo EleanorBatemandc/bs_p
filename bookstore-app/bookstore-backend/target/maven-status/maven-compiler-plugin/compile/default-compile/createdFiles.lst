@@ -1,0 +1,14 @@
+com/bookstore/service/impl/BookServiceImpl.class
+com/bookstore/entity/Customer.class
+com/bookstore/mapper/CustomerMapper.class
+com/bookstore/entity/User.class
+com/bookstore/controller/BookController.class
+com/bookstore/controller/CustomerController.class
+com/bookstore/mapper/UserMapper.class
+com/bookstore/dto/CustomerRegisterRequest.class
+com/bookstore/BookstoreApplication.class
+com/bookstore/service/BookService.class
+com/bookstore/entity/Book.class
+com/bookstore/service/CustomerService.class
+com/bookstore/mapper/BookMapper.class
+com/bookstore/service/impl/CustomerServiceImpl.class

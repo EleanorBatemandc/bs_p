@@ -1,0 +1,14 @@
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/BookstoreApplication.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/controller/BookController.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/controller/CustomerController.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/dto/CustomerRegisterRequest.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/entity/Book.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/entity/Customer.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/entity/User.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/mapper/BookMapper.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/mapper/CustomerMapper.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/mapper/UserMapper.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/service/BookService.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/service/CustomerService.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/service/impl/BookServiceImpl.java
+/workspaces/bs_p/bookstore-app/bookstore-backend/src/main/java/com/bookstore/service/impl/CustomerServiceImpl.java
